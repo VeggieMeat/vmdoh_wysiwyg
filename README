@@ -1,0 +1,7 @@
+This Feature depends on CKEditor. While everything is properly configured by
+the Feature, the CKEditor library is not included.
+
+Therefore, you must get the CKEditor library and install it to your libraries
+folder (sites/*/libraries).
+
+The CKEditor library can be downloaded from http://ckeditor.com/download
