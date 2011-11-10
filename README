@@ -5,3 +5,6 @@ Therefore, you must get the CKEditor library and install it to your libraries
 folder (sites/*/libraries).
 
 The CKEditor library can be downloaded from http://ckeditor.com/download
+
+You will also need to assign the "Filtered HTML (WYSIWYG)" text format to the
+roles that you want to be able to use it.
