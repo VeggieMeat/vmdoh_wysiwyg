@@ -40,6 +40,7 @@ function vmdoh_wysiwyg_wysiwyg_default_profiles() {
           'Superscript' => 1,
           'Subscript' => 1,
           'Blockquote' => 1,
+          'PasteText' => 1,
           'Table' => 1,
         ),
         'drupal_path' => array(
