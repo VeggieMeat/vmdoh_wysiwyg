@@ -1,3 +1,8 @@
+IMPORTANT: Until the release of WYSIWYG-7.x-2.2, you will need to either use
+WYSIWYG-7.x-2.x-dev -OR- apply the following patch to WYSIWYG-7.x-2.1:
+
+    http://drupal.org/files/0001-feature.inc-from-624018-211.patch
+
 This Feature depends on CKEditor. While everything is properly configured by
 the Feature, the CKEditor library is not included.
 
@@ -8,3 +13,7 @@ The CKEditor library can be downloaded from http://ckeditor.com/download
 
 You will also need to assign the "Filtered HTML (WYSIWYG)" text format to the
 roles that you want to be able to use it.
+
+A write-up about this module can be found at the following website:
+
+    http://www.vmdoh.com/blog/drupal-7-wysiwyg-feature

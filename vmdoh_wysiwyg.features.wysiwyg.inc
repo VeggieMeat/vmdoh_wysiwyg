@@ -41,6 +41,7 @@ function vmdoh_wysiwyg_wysiwyg_default_profiles() {
           'Subscript' => 1,
           'Blockquote' => 1,
           'PasteText' => 1,
+          'Format' => 1,
           'Table' => 1,
         ),
         'drupal_path' => array(
@@ -60,7 +61,7 @@ function vmdoh_wysiwyg_wysiwyg_default_profiles() {
       'remove_linebreaks' => 0,
       'apply_source_formatting' => 0,
       'paste_auto_cleanup_on_paste' => 1,
-      'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
+      'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div,dt,dd',
       'css_setting' => 'theme',
       'css_path' => '',
       'css_classes' => '',
