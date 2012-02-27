@@ -17,3 +17,81 @@ roles that you want to be able to use it.
 A write-up about this module can be found at the following website:
 
     http://www.vmdoh.com/blog/drupal-7-wysiwyg-feature
+
+
+
+### Required Modules ###
+
+CKEditor Link
+Features
+Image resize filter
+Media (MUST be 2.x)
+Wysiwyg
+WYSIWYG Filter
+
+### Required Libraries ###
+
+CKEditor
+
+### Allowed Tags ###
+
+This Features export sets up the "Filtered HTML (WYSIWYG)" input filter to
+allow the following tags and attributes:
+
+a[!href|target<_blank|title|class|rel]
+div[align<center?justify?left?right]
+p[align<center?justify?left?right|style]
+img[src|width|height|alt|title|style]
+br
+span
+em
+strong
+cite
+code
+blockquote
+ul
+ol
+li
+dl
+dt
+dd
+table
+th
+tr
+td
+h2
+h3
+h4
+h5
+h6
+
+Additionally, the following CSS properties are allowed:
+
+text-align
+text-decoration
+text-indent
+
+margin
+margin-top
+margin-right
+margin-bottom
+margin-left
+padding
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+float
+
+list-style
+
+border-collapse
+border-spacing
+caption-side
+empty-cells
+table-layout
+
+### Image Handling ###
+
+This Features export uses the Media module to handle images. You can use Image Styles or the Image Resize Filter (enabled by default).
