@@ -5,6 +5,11 @@ WYSIWYG-7.x-2.x-dev -OR- apply the following patch to WYSIWYG-7.x-2.1:
 
     http://drupal.org/files/0001-feature.inc-from-624018-211.patch
 
+Additionally, you will need the following patch (not yet committed to dev) to
+work with Panels.
+
+    http://drupal.org/files/lazy_wysiwyg-356480-121.patch
+
 This Feature depends on CKEditor. While everything is properly configured by
 the Feature, the CKEditor library is not included.
 
